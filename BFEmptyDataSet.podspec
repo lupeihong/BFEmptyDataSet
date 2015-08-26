@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lupeihong/BFEmptyDataSet"
  
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   s.author             = { "lupeihong" => "772490191@qq.com" }
