@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "BFEmptyDataSet"
   s.version      = "1.0.0"
   s.summary      = "空视图处理"
-  s.description  = "A drop-in UIView category for showing empty datasets whenever the view has no content to display."
+  s.description  = "A UIView category for showing empty datasets whenever the view has no content to display."
   s.homepage     = "https://github.com/lupeihong/BFEmptyDataSet"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "lupeihong" => "772490191@qq.com" }
