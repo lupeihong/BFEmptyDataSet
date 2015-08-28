@@ -110,3 +110,13 @@ Return the behaviours you would expect from the empty states, and receive the us
     NSLog(@"doSomething");
 }
 ```
+
+
+* 显示空状态视图
+```objc
+    [bodyWebView reloadEmptyDataSet];
+```
+* 关闭空状态视图
+```objc
+    [bodyWebView removeEmptyDataSet];
+```
