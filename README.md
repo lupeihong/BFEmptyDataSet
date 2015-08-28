@@ -48,7 +48,7 @@ Conform to datasource and/or delegate.
 
 ### Data Source Implementation
 Return the content you want to show on the empty state, and take advantage of NSAttributedString features to customise the text appearance.
-实现委托
+实现数据源委托
 
 * The image for the empty state:
 * 设置空视图图片
@@ -96,5 +96,17 @@ Return the content you want to show on the empty state, and take advantage of NS
 - (CGFloat)spaceHeightForEmptyDataSet:(UIView *)view
 {
     return 20.0f;
+}
+```
+
+### Delegate Implementation
+Return the behaviours you would expect from the empty states, and receive the user events.
+实现委托
+
+* Notifies when the dataset view was tapped:
+* 当视图被点击时调用
+```objc
+- (void)emptyDataSetDidTapView:(UIView *)view{
+    NSLog(@"doSomething");
 }
 ```
