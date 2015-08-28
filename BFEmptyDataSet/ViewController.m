@@ -60,12 +60,12 @@
     return [[NSAttributedString alloc] initWithString:text attributes:attributes];
 }
 
-- (UIColor *)backgroundColorForEmptyDataSet:(UIScrollView *)scrollView
+- (UIColor *)backgroundColorForEmptyDataSet:(UIView *)view
 {
     return Color(250, 250, 250, 1);
 }
 
-- (CGFloat)spaceHeightForEmptyDataSet:(UIScrollView *)scrollView
+- (CGFloat)spaceHeightForEmptyDataSet:(UIView *)view
 {
     return 5.0f;
 }
