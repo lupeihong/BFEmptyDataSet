@@ -6,16 +6,16 @@
 参考 https://github.com/dzenbot/DZNEmptyDataSet 经过修改
 
 ### Features
-*无网络状态，无数据状态，空视图处理
-*支持所有UIView
+* 无网络状态，无数据状态，空视图处理
+* 支持所有UIView
 
 ![Screenshots_Row2](https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row2.png)
 
 ## Installation
-*可自定义背景颜色
-*定义标题、描述
-*图片
-*界面点击事件
+* 可自定义背景颜色
+* 定义标题、描述
+* 图片
+* 界面点击事件
 
 ## How to use
 
