@@ -19,10 +19,15 @@
 
 ## How to use
 
+### user cocoapods
+```objc
+pod 'BFEmptyDataSet', '~> 1.0.0'
+```
 ### Import
 ```objc
 #import "UIView+EmptyDataSet.h"
 ```
+
 ### Protocol Conformance
 Conform to datasource and/or delegate.
 遵循协议委托
